@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5efe3">
+  <meta name="description" content="A ZELORI invitation design preview with sample event details; RSVP replies are not sent or stored.">
+  <title>Wedding Invitation Preview | ZELORI</title>
+  <meta property="og:title" content="Wedding Invitation Preview | ZELORI">
+  <meta property="og:description" content="ZELORI digital wedding invitation design preview. Sample details are for demonstration; request a personalized design.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="invitation-references.css">
+</head>
+<body class="reference-invitation">
+  <section class="ref-cover" id="cover" aria-label="Invitation cover">
+    <div class="ref-cover-card"><span class="ref-cover-flower ref-cover-flower-one" aria-hidden="true">✿</span><span class="ref-cover-flower ref-cover-flower-two" aria-hidden="true">✿</span><span class="ref-cover-seal" aria-hidden="true">♥</span><span class="ref-cover-badge" id="coverDemoBadge">DESIGN PREVIEW · SAMPLE DETAILS</span><p id="coverKicker">THE WEDDING OF</p><h1><span id="coverNameOne"></span><i>&amp;</i><span id="coverNameTwo"></span></h1><div class="ref-cover-rule">— ❧ —</div><p id="coverDate"></p><p class="ref-cover-invite">Cordially Invites</p><p class="ref-cover-guest" id="coverGuest"></p><p class="ref-cover-family" id="coverFamily">to celebrate with our family</p><button id="openInvitation" type="button">Open</button></div>
+    <span class="cover-spark cover-spark-one">✦</span><span class="cover-spark cover-spark-two">✧</span><span class="cover-spark cover-spark-three">✿</span>
+  </section>
+  <header class="ref-topbar"><a href="index.html#portfolio" class="ref-brand">ZELORI<span>INVITATIONS</span></a><span class="ref-demo-badge" id="demoBadge">DESIGN PREVIEW · SAMPLE DETAILS</span><a href="index.html#portfolio" class="ref-back">← All designs</a></header>
+  <main id="invitation" class="ref-theme">
+    <section class="ref-hero" aria-labelledby="coupleNames">
+      <div class="ref-hero-art" aria-hidden="true"><span class="ref-photo ref-photo-one"></span><span class="ref-photo ref-photo-two"></span><span class="ref-envelope"></span><span class="ref-seal">♥</span><span class="ref-lantern ref-lantern-one">✧</span><span class="ref-lantern ref-lantern-two">✧</span><span class="ref-bloom ref-bloom-one">✿</span><span class="ref-bloom ref-bloom-two">✿</span></div>
+      <div class="ref-hero-paper">
+        <p class="ref-kicker" id="heroKicker"></p>
+        <p class="ref-intro" id="heroIntro"></p>
+        <h1 id="coupleNames"><span id="nameOne"></span><i>&amp;</i><span id="nameTwo"></span></h1>
+        <p class="ref-copy" id="heroCopy"></p>
+        <div class="ref-date"><span id="dayName"></span><b id="dayNumber"></b><span id="monthYear"></span></div>
+        <a class="ref-scroll" href="#ceremony">EXPLORE THE INVITATION <span>↓</span></a>
+      </div>
+      <span class="ref-side-note" id="sideNote"></span>
+    </section>
+
+    <section class="ref-ceremony" id="ceremony">
+      <p class="ref-eyebrow">CEREMONY INFO</p>
+      <div class="ref-family-grid"><p id="familyOne"></p><p id="familyTwo"></p></div>
+      <p class="ref-ceremony-intro">Together with our families<br>we invite you to our wedding</p>
+      <h2 class="ref-couple-display"><span id="ceremonyNameOne"></span><i>&amp;</i><span id="ceremonyNameTwo"></span></h2>
+      <div class="ref-event-grid"><article><span>WEDDING CEREMONY</span><h3 id="ceremonyVenue"></h3><b id="ceremonyTime"></b><p id="ceremonyDate"></p></article><article><span>RECEPTION</span><h3 id="receptionVenue"></h3><b id="receptionTime"></b><p id="receptionDate"></p></article></div>
+    </section>
+
+    <section class="ref-gallery" id="gallery"><p class="ref-eyebrow">A FEW OF OUR FAVORITE MOMENTS</p><h2>PHOTO GALLERY</h2><div class="ref-carousel"><button type="button" class="gallery-prev" aria-label="Previous photo">‹</button><div class="ref-photo-track" id="photoTrack"></div><button type="button" class="gallery-next" aria-label="Next photo">›</button></div><div class="ref-gallery-count"><span id="galleryCurrent">01</span> / <span id="galleryTotal">09</span></div></section>
+
+    <section class="ref-reception" id="reception"><p class="ref-eyebrow">RECEPTION INFO</p><h2>THE RECEPTION WILL TAKE PLACE AT:</h2><div class="ref-reception-main"><div class="ref-reception-date"><b id="receptionTimeLarge"></b><span id="receptionDateLarge"></span><strong id="receptionYear"></strong></div><div class="ref-hours"><span>WELCOME <b id="welcomeTime"></b></span><span>RECEPTION <b id="receptionStart"></b></span></div><div class="ref-count-grid"><div><b id="days">—</b><span>DAYS</span></div><i>:</i><div><b id="hours">—</b><span>HOURS</span></div><i>:</i><div><b id="minutes">—</b><span>MINUTES</span></div><i>:</i><div><b id="seconds">—</b><span>SECONDS</span></div></div><div class="ref-calendar"><div class="ref-cal-head"><button type="button" aria-label="Previous month" id="calPrev">‹</button><b id="calendarMonth"></b><button type="button" aria-label="Next month" id="calNext">›</button></div><div class="ref-cal-grid" id="calendarGrid"></div></div><div class="ref-reception-actions"><a id="calendarLink" target="_blank" rel="noopener noreferrer">Add to calendar</a><a href="#guestbook">CONFIRM ATTENDANCE</a></div></div></section>
+
+    <section class="ref-venue" id="venue"><p class="ref-eyebrow">WEDDING RECEPTION VENUE</p><h2 id="venueTitle"></h2><p id="venueAddress"></p><div class="ref-map-art" aria-label="Illustrated map preview"><span>✦</span><b id="mapMarker"></b></div><a id="mapLink" target="_blank" rel="noopener noreferrer">Get directions ↗</a></section>
+
+    <section class="ref-dress" id="dress"><p class="ref-eyebrow">DRESS CODE</p><h2 id="dressTitle">Party Attire</h2><div class="ref-swatches" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><p>Please join us in attire that suits the celebration.</p></section>
+
+    <section class="ref-schedule" id="schedule"><p class="ref-eyebrow">WEDDING DAY SCHEDULE</p><h2>A day to remember</h2><ol id="scheduleList"></ol></section>
+
+    <section class="ref-guestbook" id="guestbook"><p class="ref-eyebrow">GUESTBOOK · DEMO ONLY</p><h2>Leave a wish<br><em>for the happy couple.</em></h2><form id="refRsvp"><label for="guest">Your name</label><input id="guest" required placeholder="Write your name"><label for="message">Your wishes</label><textarea id="message" rows="3" required placeholder="Write a lovely message"></textarea><button type="submit">SHOW PREVIEW RESPONSE</button><output id="rsvpMessage" aria-live="polite">Preview only — nothing is sent or stored.</output></form><div class="ref-wishes" id="wishSamples"></div></section>
+
+    <section class="ref-gift"><p class="ref-eyebrow">A LITTLE SURPRISE</p><h2>GIFT BOX</h2><button id="giftButton" class="ref-gift-box" type="button" aria-label="Open gift box"><span class="gift-lid"></span><span class="gift-ribbon"></span><span class="gift-bow">✦</span><span class="gift-prompt">Tap to open</span></button><p id="giftMessage">Your presence would be the greatest gift we could receive!</p></section>
+
+    <section class="ref-order" id="order"><p class="ref-eyebrow">MAKE THIS DESIGN YOURS</p><h2>Choose your invitation</h2><p>Send a request and we’ll confirm details and manual payment on WhatsApp. No online payment is taken.</p><div class="ref-products"><a id="digitalOrder" class="ref-product"><b>Digital Card</b><span>Personalized shareable image · 99 EGP</span><small>Prepared for you after order confirmation</small></a><a id="webOrder" class="ref-product ref-product-primary"><b>Web Invitation</b><span>Interactive page for your guests · 299 EGP</span><small>Event details, gallery and countdown; RSVP replies are not collected</small></a></div><p class="ref-payment">Custom Design · 499 EGP includes a bespoke visual direction and matching invitation page. Request it through the order form. RSVP collection is not included.</p><a class="ref-all-designs" href="index.html#portfolio">Explore all ZELORI designs</a></section>
+  </main>
+  <footer class="ref-footer"><b>ZELORI</b><span>Made with care for your celebration</span><a href="index.html#portfolio">Back to ZELORI</a></footer>
+  <script src="invitation-references.js"></script>
+</body>
+</html>

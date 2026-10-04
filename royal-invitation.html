@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f2e9">
+  <meta name="description" content="A wedding invitation demo for Omar and Farida, created by ZELORI.">
+  <title>Omar &amp; Farida — Royal Invitation | ZELORI</title>
+  <meta property="og:title" content="Omar & Farida — Royal Invitation | ZELORI">
+  <meta property="og:description" content="ZELORI digital wedding invitation design preview. Sample details are for demonstration; request a personalized design.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="invitation-templates.css">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body class="invite-page theme-royal">
+  <section class="floral-door-intro" id="floralDoorIntro" aria-labelledby="doorIntroTitle" role="dialog" aria-modal="true">
+    <div class="door-intro-stage">
+      <div class="door-phone" aria-hidden="true">
+        <div class="door-screen">
+          <div class="door-leaf door-leaf-left"><span class="door-carving">✦</span></div>
+          <div class="door-leaf door-leaf-right"><span class="door-carving">✦</span></div>
+          <div class="door-floral-frame"></div>
+          <div class="door-touch-mark">✧</div>
+        </div>
+      </div>
+      <h1 id="doorIntroTitle">A beautiful beginning</h1>
+      <p>A floral doorway to your invitation</p>
+      <button id="doorOpen" class="door-open-button" type="button" autofocus>Open the invitation <span aria-hidden="true">→</span></button>
+    </div>
+  </section>
+  <header class="invite-topbar">
+    <a class="invite-brand" href="index.html" aria-label="ZELORI home">ZELORI<span>®</span></a>
+    <span class="invite-demo-tag">INVITATION DEMO</span>
+    <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false" aria-label="Play invitation music">
+      <span class="music-icon" aria-hidden="true">♫</span><span id="musicLabel">Play music</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="invite-hero" aria-labelledby="coupleNames">
+      <div class="invite-glow invite-glow-one" aria-hidden="true"></div>
+      <div class="invite-glow invite-glow-two" aria-hidden="true"></div>
+      <div class="invite-hero-inner reveal">
+        <span class="invite-kicker">A ROYAL CELEBRATION</span>
+        <div class="invite-ornament" aria-hidden="true"><span></span>✦<span></span></div>
+        <p class="invite-intro">Together with their families</p>
+        <h1 id="coupleNames"><span>Omar</span><i>&amp;</i><span>Farida</span></h1>
+        <p class="invite-hero-copy">We request the pleasure of your company as we celebrate our marriage.</p>
+        <div class="invite-date-block">
+          <span>SUNDAY</span><b></b><strong>14</strong><b></b><span>FEBRUARY · 2027</span>
+        </div>
+        <a href="#details" class="invite-scroll" aria-label="Explore invitation details"><span>↓</span></a>
+      </div>
+      <span class="invite-side-note">ROYAL WEDDING INVITATION · 2026</span>
+    </section>
+
+    <section class="countdown-section reveal" aria-label="Countdown to the wedding">
+      <p class="invite-eyebrow">THE COUNTDOWN BEGINS</p>
+      <h2>Until we say <em>“I do”</em></h2>
+      <div class="countdown" id="countdown" data-date="2027-02-14T19:00:00+02:00">
+        <div><strong id="days">—</strong><span>DAYS</span></div><i>:</i>
+        <div><strong id="hours">—</strong><span>HOURS</span></div><i>:</i>
+        <div><strong id="minutes">—</strong><span>MINUTES</span></div><i>:</i>
+        <div><strong id="seconds">—</strong><span>SECONDS</span></div>
+      </div>
+    </section>
+
+    <section class="invite-details" id="details">
+      <div class="invite-section-heading reveal"><p class="invite-eyebrow">PLEASE JOIN US</p><h2>A celebration<br><em>of love.</em></h2></div>
+      <div class="detail-card reveal">
+        <div class="detail-row"><span class="detail-symbol">✧</span><div><p class="detail-label">THE DATE</p><h3>Sunday, February 14, 2027</h3><p>We can’t wait to celebrate with you.</p></div></div>
+        <div class="detail-rule"></div>
+        <div class="detail-row"><span class="detail-symbol">◷</span><div><p class="detail-label">THE TIME</p><h3>7:00 in the evening</h3><p>Kindly arrive a little early.</p></div></div>
+        <div class="detail-rule"></div>
+        <div class="detail-row"><span class="detail-symbol">⌖</span><div><p class="detail-label">THE VENUE</p><h3>Baron Empain Palace</h3><p>Heliopolis · Cairo · sample venue</p><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Baron%20Empain%20Palace%20Cairo" target="_blank" rel="noopener noreferrer">Search on Google Maps <span>↗</span></a></div></div>
+      </div>
+    </section>
+
+
+    <section class="invite-story reveal"><p class="invite-eyebrow">HOW IT BEGAN</p><h2>A grand celebration.<br><em>A promise for life.</em></h2><p class="story-copy">An occasion becomes unforgettable through the company we keep. We hope you will join our celebration.</p></section>
+    <section class="invite-gallery reveal"><p class="invite-eyebrow">A ROYAL CELEBRATION</p><h2>A day<br><em>of distinction.</em></h2><div class="gallery-grid">
+  <figure class="gallery-tile gallery-one"><img src="https://images.unsplash.com/photo-1495610015663-83e7e5246070?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Soft pink and white roses in a wedding bouquet" loading="lazy"><figcaption><a href="https://unsplash.com/it/foto/donna-che-tiene-il-bouquet-di-fiori-di-petali-bianchi-e-rosa-pTrHHGrxeOE" target="_blank" rel="noopener noreferrer">Floral details · Orio Nguyen / Unsplash</a></figcaption></figure>
+  <figure class="gallery-tile gallery-two"><img src="https://images.unsplash.com/photo-1525258946800-98cfd641d0de?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="A delicate bridal bouquet of white and blush roses" loading="lazy"><figcaption><a href="https://unsplash.com/photos/woman-holding-white-and-pink-rose-flower-bouquet-8yPA6ZYq0-s" target="_blank" rel="noopener noreferrer">A touch of romance · Tom The Photographer / Unsplash</a></figcaption></figure>
+  <figure class="gallery-tile gallery-three"><img src="https://images.unsplash.com/photo-1683435844312-ac5324de7572?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Candlelit wedding dinner table decorated with white flowers" loading="lazy"><figcaption><a href="https://unsplash.com/pt-br/fotografias/uma-mesa-posta-para-um-jantar-formal-com-velas-e-flores-4k9S6O6pZJg" target="_blank" rel="noopener noreferrer">The celebration · Denio Rodríguez / Unsplash</a></figcaption></figure>
+</div></section>
+    <section class="invite-timeline reveal"><p class="invite-eyebrow">THE EVENING</p><h2>The celebration<br><em>begins.</em></h2><div class="timeline-list"><p><b>8:00 PM</b><span>Guest arrival</span></p><p><b>8:30 PM</b><span>Welcome &amp; celebration</span></p><p><b>9:00 PM</b><span>Dinner and dancing</span></p></div></section>
+    <section class="invite-rsvp reveal" id="rsvp">
+      <span class="rsvp-flower" aria-hidden="true">✳</span>
+      <p class="invite-eyebrow">A LITTLE NOTE BACK</p>
+      <h2>Will you join<br><em>our celebration?</em></h2>
+      <p class="rsvp-copy">Your presence would mean the world to us.</p>
+      <form id="rsvpForm" class="rsvp-form">
+        <label for="guestName">Your name</label>
+        <input id="guestName" name="guestName" autocomplete="name" placeholder="Write your name" required>
+        <label for="attendance">Will you be joining us?</label>
+        <select id="attendance" name="attendance" required><option value="" disabled selected>Please choose</option><option value="yes">Joyfully accepts</option><option value="no">Regretfully declines</option></select>
+        <button type="submit" class="rsvp-button">Preview reply only <span>→</span></button>
+        <p class="rsvp-demo-note">Demo only — your reply is not sent or saved. RSVP collection is not included in the listed packages.</p>
+        <p class="rsvp-response" id="rsvpResponse" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="invite-share reveal">
+      <p class="invite-eyebrow">SPREAD THE JOY</p><h2>Save the date.<br><em>Share the love.</em></h2>
+      <a class="share-button" href="https://wa.me/?text=Join%20us%20to%20celebrate%20Omar%20%26%20Farida%20on%20February%2014%2C%202027!" target="_blank" rel="noopener noreferrer">Share on WhatsApp <span>↗</span></a>
+    </section>
+  </main>
+  <footer class="invite-footer"><a class="invite-brand" href="index.html">ZELORI<span>®</span></a><p>Made with love for Omar &amp; Farida</p><a href="index.html" class="back-to-site">Discover ZELORI</a></footer>
+  <script src="invitation-templates.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" fill="none">
+  <defs>
+    <radialGradient id="blueWash"><stop stop-color="#fff"/><stop offset=".58" stop-color="#dce7ef" stop-opacity=".82"/><stop offset="1" stop-color="#89a5bb" stop-opacity=".1"/></radialGradient>
+    <radialGradient id="lilacWash"><stop stop-color="#fffdf5"/><stop offset=".62" stop-color="#d7d4e2" stop-opacity=".83"/><stop offset="1" stop-color="#aab8c4" stop-opacity=".08"/></radialGradient>
+    <radialGradient id="leafWash"><stop stop-color="#b7c5a5" stop-opacity=".72"/><stop offset="1" stop-color="#718a6e" stop-opacity=".06"/></radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="2.1"/></filter>
+  </defs>
+  <g opacity=".8" stroke="#758a71" stroke-width="3" stroke-linecap="round">
+    <path d="M28 762C112 649 135 539 166 445S235 250 292 153M58 625c-23-76-31-136-19-198m77 108c47-46 80-92 101-151m11-19c-5-92 14-171 55-237m-95 494c56-24 104-67 143-132m-99-91c64-30 121-79 169-149m-157 321c7-84 38-154 95-210"/>
+  </g>
+  <g fill="url(#leafWash)" stroke="#788b72" stroke-opacity=".35" stroke-width="2">
+    <path d="M48 443c-54-54-63-103-28-146 53 30 64 79 28 146Zm53 113c-13-72 8-117 62-132 24 57 3 101-62 132Zm54-191c-48-41-58-83-29-126 47 23 57 65 29 126Zm81-158c-31-62-21-107 31-134 39 48 28 92-31 134Zm50 276c12-65 48-96 107-92-4 61-39 92-107 92Zm36-183c13-70 49-107 107-110 1 62-35 99-107 110Zm-90 337c3-65 34-102 91-111 12 61-18 98-91 111Z"/>
+  </g>
+  <g filter="url(#soft)" opacity=".58" fill="url(#blueWash)">
+    <ellipse cx="105" cy="148" rx="74" ry="65"/><ellipse cx="337" cy="305" rx="89" ry="75"/><ellipse cx="425" cy="594" rx="76" ry="70"/><ellipse cx="194" cy="689" rx="87" ry="74"/>
+  </g>
+  <g opacity=".87" stroke="#fff" stroke-width="1.3">
+    <g transform="translate(104 147)"><g fill="url(#blueWash)"><ellipse cy="-31" rx="19" ry="32"/><ellipse cy="-31" rx="19" ry="32" transform="rotate(45)"/><ellipse cy="-31" rx="19" ry="32" transform="rotate(90)"/><ellipse cy="-31" rx="19" ry="32" transform="rotate(135)"/><ellipse cy="-31" rx="19" ry="32" transform="rotate(180)"/><ellipse cy="-31" rx="19" ry="32" transform="rotate(225)"/><ellipse cy="-31" rx="19" ry="32" transform="rotate(270)"/><ellipse cy="-31" rx="19" ry="32" transform="rotate(315)"/></g><circle r="11" fill="#d3b679"/></g>
+    <g transform="translate(337 305) scale(1.12)"><g fill="url(#lilacWash)"><ellipse cy="-31" rx="20" ry="34"/><ellipse cy="-31" rx="20" ry="34" transform="rotate(45)"/><ellipse cy="-31" rx="20" ry="34" transform="rotate(90)"/><ellipse cy="-31" rx="20" ry="34" transform="rotate(135)"/><ellipse cy="-31" rx="20" ry="34" transform="rotate(180)"/><ellipse cy="-31" rx="20" ry="34" transform="rotate(225)"/><ellipse cy="-31" rx="20" ry="34" transform="rotate(270)"/><ellipse cy="-31" rx="20" ry="34" transform="rotate(315)"/></g><circle r="10" fill="#c8a66b"/></g>
+    <g transform="translate(425 594) scale(.94)"><g fill="url(#blueWash)"><ellipse cy="-29" rx="18" ry="31"/><ellipse cy="-29" rx="18" ry="31" transform="rotate(45)"/><ellipse cy="-29" rx="18" ry="31" transform="rotate(90)"/><ellipse cy="-29" rx="18" ry="31" transform="rotate(135)"/><ellipse cy="-29" rx="18" ry="31" transform="rotate(180)"/><ellipse cy="-29" rx="18" ry="31" transform="rotate(225)"/><ellipse cy="-29" rx="18" ry="31" transform="rotate(270)"/><ellipse cy="-29" rx="18" ry="31" transform="rotate(315)"/></g><circle r="10" fill="#d5b877"/></g>
+    <g transform="translate(194 689) scale(.82)"><g fill="url(#lilacWash)"><ellipse cy="-30" rx="19" ry="32"/><ellipse cy="-30" rx="19" ry="32" transform="rotate(45)"/><ellipse cy="-30" rx="19" ry="32" transform="rotate(90)"/><ellipse cy="-30" rx="19" ry="32" transform="rotate(135)"/><ellipse cy="-30" rx="19" ry="32" transform="rotate(180)"/><ellipse cy="-30" rx="19" ry="32" transform="rotate(225)"/><ellipse cy="-30" rx="19" ry="32" transform="rotate(270)"/><ellipse cy="-30" rx="19" ry="32" transform="rotate(315)"/></g><circle r="9" fill="#cfae71"/></g>
+  </g>
+  <g fill="#e4d2b1" opacity=".7"><circle cx="270" cy="206" r="6"/><circle cx="291" cy="188" r="4"/><circle cx="275" cy="178" r="3"/><circle cx="368" cy="476" r="5"/><circle cx="381" cy="455" r="3"/><circle cx="142" cy="510" r="4"/></g>
+</svg>
